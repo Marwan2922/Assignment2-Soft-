@@ -8,7 +8,7 @@ public class Main extends Application {
     @Override
     public void start(Stage stage) throws Exception {
         new US1_SetInitialBudgetCycle(stage);
-        stage.getIcons().add(new javafx.scene.image.Image("/icon.jpg")
+        stage.getIcons().add(new javafx.scene.image.Image("/icon.jpg") // add image icon
         );
 
     }
